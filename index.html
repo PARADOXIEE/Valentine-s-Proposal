@@ -1,119 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>For Mrunmayeeeee ❤️</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Mrunmayee ❤️</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
 
-    body {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(-45deg, #ffccd5, #ffe5ec, #ffd6e0);
-      background-size: 400% 400%;
-      animation: bgMove 12s ease infinite;
-      font-family: "Poppins", sans-serif;
-      overflow: hidden;
-    }
+body{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family:'Poppins',sans-serif;
+  overflow:hidden;
+  background:linear-gradient(-45deg,#ffccd5,#ffe5ec,#ffd6e0);
+  background-size:400% 400%;
+  animation:bgMove 12s ease infinite;
+}
 
-    @keyframes bgMove {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
+@keyframes bgMove{
+  0%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+  100%{background-position:0% 50%;}
+}
 
-    .container {
-      background: rgba(255,255,255,0.85);
-      backdrop-filter: blur(14px);
-      padding: 40px 35px;
-      border-radius: 30px;
-      text-align: center;
-      box-shadow: 0 25px 60px rgba(0,0,0,0.2);
-      animation: popIn 1s ease;
-      max-width: 420px;
-      width: 92%;
-    }
+.container{
+  width:92%;
+  max-width:420px;
+  padding:40px 35px;
+  text-align:center;
+  border-radius:30px;
+  background:rgba(255,255,255,0.85);
+  backdrop-filter:blur(14px);
+  box-shadow:0 25px 60px rgba(0,0,0,0.2);
+  animation:popIn 0.8s ease;
+}
 
-    @keyframes popIn {
-      from { opacity: 0; transform: translateY(30px) scale(0.95); }
-      to { opacity: 1; transform: translateY(0) scale(1); }
-    }
+@keyframes popIn{
+  from{
+    opacity:0;
+    transform:translateY(30px) scale(.95);
+  }
+  to{
+    opacity:1;
+    transform:translateY(0) scale(1);
+  }
+}
 
-    .gif-container {
-      width: 200px;
-      height: 200px;
-      margin: 0 auto 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+.gif-container{
+  width:200px;
+  height:200px;
+  margin:0 auto 20px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
 
-    .gif-container img {
-      max-width: 100%;
-      max-height: 100%;
-    }
+.gif-container img{
+  max-width:100%;
+  max-height:100%;
+}
 
-    h1 {
-      font-size: 24px;
-      color: #ff4d6d;
-      margin-bottom: 30px;
-      line-height: 1.4;
-    }
+h1{
+  color:#ff4d6d;
+  font-size:24px;
+  line-height:1.5;
+  margin-bottom:30px;
+}
 
-    .buttons {
-      display: flex;
-      justify-content: center;
-      gap: 22px;
-      min-height: 110px;
-    }
+.buttons{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  min-height:110px;
+}
 
-    button {
-      border: none;
-      cursor: pointer;
-      border-radius: 16px;
-      font-size: 20px;
-      padding: 15px 32px;
-      transition: all 0.25s ease;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-    }
+button{
+  border:none;
+  cursor:pointer;
+  border-radius:16px;
+  font-size:20px;
+  padding:15px 32px;
+  transition:all .25s ease;
+  box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
 
-    #yesBtn {
-      background: linear-gradient(135deg, #ff4d6d, #ff758f);
-      color: #fff;
-    }
+#yesBtn{
+  background:linear-gradient(135deg,#ff4d6d,#ff758f);
+  color:white;
+}
 
-    #noBtn {
-      background: #6c757d;
-      color: #fff;
-    }
-  </style>
+#noBtn{
+  background:#6c757d;
+  color:white;
+}
+</style>
 </head>
 
 <body>
 
-  <div class="container">
-    <div class="gif-container">
-      <!-- ✅ FIXED GIF (GIPHY – WORKS EVERYWHERE) -->
-      <img id="statusGif" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJnMmJ2cmMybjcydWUyZHhhdHltcm5yeHozNHIzcmdqcHhiaXFhMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/y93x7gLXTO5dnSWCEI/giphy.gif" alt="Cute Bear">
-    </div>
+<div class="container">
 
-    <h1>
-      Hi Mrunmayeee,<br>
-      every time I see you, you somehow look even cuter 🥺💖
+  <div class="gif-container">
+    <img
+      id="statusGif"
+      src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJnMmJ2cmMybjcydWUyZHhhdHltcm5yeHozNHIzcmdqcHhiaXFhMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/y93x7gLXTO5dnSWCEI/giphy.gif"
+      alt="Cute Bear">
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <h1>
+    Hi Mrunmayeee,<br>
+    How do you keep getting cuter every time I see you? 🥺💖
+  </h1>
 
-  <script>
-    let clickCount = 0;
+  <div class="buttons">
+    <button id="yesBtn" onclick="celebrate()">Yes 💖</button>
+    <button id="noBtn" onclick="makeYesBigger()">No 🙈</button>
+  </div>
 
-    const phrases = [
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+<script>
+
+let clickCount = 0;
+
+const phrases = [
   "No 🙈",
   "Really? 🥺",
   "Look again 😌",
@@ -124,53 +145,73 @@
   "I'm not taking it back 💕",
   "Facts are facts 😌✨",
   "YOU ARE CUTE 💖"
-    ];
+];
 
-    function makeYesBigger() {
-      clickCount++;
+function makeYesBigger() {
 
-      const yesBtn = document.getElementById("yesBtn");
-      const noBtn = document.getElementById("noBtn");
-      const gif = document.getElementById("statusGif");
+  clickCount++;
 
-      // ✅ ONLY GIF CHANGE
-      if (clickCount === 2)
-        gif.src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnhlYXdpdWN6aTJmc3hweDVxb2lvajY3MGM4M2x5dzRyaHhqdHd6YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GAXXHdS0zXawVLOJLY/giphy.gif";
-      if (clickCount === 5)
-        gif.src = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnhlYXdpdWN6aTJmc3hweDVxb2lvajY3MGM4M2x5dzRyaHhqdHd6YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GAXXHdS0zXawVLOJLY/giphy.gif";
+  const yesBtn = document.getElementById("yesBtn");
+  const noBtn = document.getElementById("noBtn");
+  const gif = document.getElementById("statusGif");
 
-      yesBtn.style.fontSize = 20 + clickCount * 14 + "px";
-      yesBtn.style.padding =
-        15 + clickCount * 5 + "px " +
-        (32 + clickCount * 10) + "px";
+  if(clickCount === 2){
+    gif.src =
+    "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnhlYXdpdWN6aTJmc3hweDVxb2lvajY3MGM4M2x5dzRyaHhqdHd6YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GAXXHdS0zXawVLOJLY/giphy.gif";
+  }
 
-      noBtn.style.fontSize = Math.max(20 - clickCount * 2, 6) + "px";
-      noBtn.innerText = phrases[Math.min(clickCount, phrases.length - 1)];
-    }
+  if(clickCount === 5){
+    gif.src =
+    "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnhlYXdpdWN6aTJmc3hweDVxb2lvajY3MGM4M2x5dzRyaHhqdHd6YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GAXXHdS0zXawVLOJLY/giphy.gif";
+  }
 
-    function celebrate() {
+  yesBtn.style.fontSize =
+    (20 + clickCount * 14) + "px";
+
+  yesBtn.style.padding =
+    (15 + clickCount * 5) + "px " +
+    (32 + clickCount * 10) + "px";
+
+  noBtn.style.fontSize =
+    Math.max(20 - clickCount * 2, 6) + "px";
+
+  noBtn.innerText =
+    phrases[Math.min(clickCount, phrases.length - 1)];
+}
+
+function celebrate(){
+
   document.querySelector(".container").innerHTML = `
     <div class="gif-container">
       <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXQ1Z251NGV3dm9wbzJ3MzRlcWYwemdjMzF5Mmx1aDZmbXlyaWNtbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DffShiJ47fPqM/giphy.gif">
     </div>
-    <h1>Hehe 😌💖<br>I knew you'd say YES!</h1>
+
+    <h1>
+      Hehe 😌💖<br>
+      I knew you'd say YES!
+    </h1>
+
     <p style="font-size:1.2rem;color:#555;">
-      See you on the 14th, Gauri ✨
+      See you soon ✨💖
     </p>
   `;
 
   const end = Date.now() + 2200;
-  (function frame() {
+
+  (function frame(){
     confetti({
-      particleCount: 4,
-      spread: 80,
-      colors: ["#ff4d6d", "#ff9a9e"]
+      particleCount:4,
+      spread:80,
+      colors:["#ff4d6d","#ff9a9e"]
     });
-    if (Date.now() < end) requestAnimationFrame(frame);
+
+    if(Date.now() < end){
+      requestAnimationFrame(frame);
+    }
   })();
 }
+
 </script>
-  
 
 </body>
 </html>
